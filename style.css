@@ -1,0 +1,35 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.tr1
+{
+  text-align: center;
+  font-size: 22px;
+  color: darkgreen;
+  font-family: papyrus;
+
+}
+.tr2
+{
+  text-decoration: none;
+  color: yellowgreen;
+}
+.tr3
+{
+  border:2px purple solid;
+  padding: 2px;
+}
+.tr4
+{
+text-decoration: none;  
+color: purple;
+}
+a:hover
+{
+color: lime;  
+}
+.tr5
+{
+ color: #117777;
+}
