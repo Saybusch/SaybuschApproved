@@ -1,0 +1,142 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+  margin: 0px;
+}
+.tr1
+{
+  text-align: center;
+  font-size: 48px;
+  color: darkgreen;
+}
+.tr2{
+  text-decoration: none;
+  color: yellowgreen;
+  font-size: 20px;
+}
+.tr2:hover{
+  color: purple;
+}
+.tr3
+{
+  border:2px purple solid;
+  padding: 2px;
+}
+.tr4
+{
+text-decoration: none;  
+color: #572174;
+}
+.tr4:hover{
+  color: #AD2A2A
+}
+.tr5
+{
+ color: #117777;
+  font-size: 20px;
+  margin-left: 7px;
+} 
+.tr6 
+{
+  text-decoration: none;
+  text-align: justify;
+  font-size: 20px;
+  color: darkgreen;
+}
+.tr6 a 
+{
+  text-decoration: none;
+  text-align: justify;
+  font-size: 22px;
+  color: #572174;
+}
+.tr6 a:hover
+{
+  text-decoration: none;
+  text-align: justify;
+  font-size: 22px;
+  color: #AD2A2A;
+}
+.tr61{
+  text-decoration: none;
+  text-align: justify;
+  font-size: 22px;
+  color: darkgreen;
+  margin-left: 20px;
+}
+.tr62{
+  margin-left: 30px;
+}
+.tr63{
+  margin-left: 80px;
+}
+.tr7{
+  color: #117777;
+  font-size: 28px;
+  padding: 5%;
+}
+.tr8{
+  color: #5177B7;
+  font-size: 28px;
+  padding: 5%;
+}
+.tr7 img{
+  border:1px black solid;
+}
+.tr8 img{
+  border:1px black solid;
+}
+.navbar{
+  background: 	#C0C0C0;
+  border-bottom:1px black solid;
+}
+.navbar ul{
+  display: inline-flex;
+  margin: 50px;
+}
+.navbar ul li{
+  list-style: none;
+  margin: 0 20px;
+  color: #5B21AA;
+  cursor: pointer;
+}
+.logo{
+  width: 30px;
+  margin-top: -7px;
+  margin-right: 48px;
+}
+.navbar a{
+text-decoration: none!important;
+color: #5B21AA;
+}
+.navbar a:hover{
+  color: #AD2A2A;
+}
+.password-btn{
+  right: 120px;
+  position: absolute;
+  text-decoration: none;
+  color: #AE662A;
+}
+.tutorial img{
+  margin-top: 45px;
+  margin-bottom: 45px;
+  margin-left: 20px;
+}
+@media only screen and (max-width: 540px){
+  .navbar{
+    display: none;
+  }
+  .tutorial img{
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    width: 100%;
+  }
+  .tr7 img[src="dow3.png"]{
+    height: 457px;
+    width: 260px;
+    margin-left: 10%;
+  }
+}
