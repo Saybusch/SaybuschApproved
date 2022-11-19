@@ -4,9 +4,6 @@ html, body {
   font-family: sans-serif;
   margin: 0px;
 }
-#p1{
-  background: #E0E0E0;
-}
 .tr1
 {
   text-align: center;
@@ -131,37 +128,42 @@ color: #5B21AA;
   color: #AE662A;
 }
 #banner{
-  width: 75%;
+  width: 95%;
   height: 70%;
   top: 25%;
-  left: 130px;
+  left: 5%;
+  background: #E0E0E0;
   position: absolute;
   color: #8B225D;
+  overflow: wrap;
+  box-sizing: border-box;
 }
-.app-text{
-  width: 50%;
-  float: left;
-}
-.app-text h1{
+#banner h1{
   font-size: 43px;
-  width: 640px;
-  position: relative;
 }
-.app-text p{
-  width: 650px;
+#banner p{
   font-size: 15px;
   margin: 30px 0 30px 40px;
   line-height: 25px;
   color:#5F2A7A;
   margin-left: 40px;
 }
+#banner article{
+  float: left;
+  width: 35%;
+}
+#banner img{
+  float: right;
+  width: 40%;
+  margin-right: 5%;
+}
 .column {
-	  width: 30%;
-	  height: 700px;
-	  padding: 10px;
-	  margin: 1%;
-	  background-color: #cccccc;
-	  text-align: center;
+	width: 30%;
+	height: 700px;
+	padding: 10px;
+	margin: 1%;
+	background-color: #cccccc;
+	text-align: center;
 }
 .container{
   display: flex;
@@ -200,4 +202,48 @@ color: #5B21AA;
   margin-top: 45px;
   margin-bottom: 45px;
   margin-left: 20px;
+}
+@media only screen and (max-width: 540px){
+  html, body {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+  .navbar{
+    display: none;
+  }
+  #banner{
+  width: 90%;
+  color: #8B225D;
+  top: 0;
+  left: 0;
+  overflow: wrap;
+  padding: 5%;
+  box-sizing: border-box;
+}
+  #banner h1{
+  font-size: 38px;
+}
+  #banner p{
+  font-size: 21px;
+  line-height: 25px;
+  color:#5F2A7A;
+  margin: 0;
+}
+  #banner article{
+  float: none;
+  width: 100%;
+}
+  #banner img{
+  float: none;
+  width: 100%;
+  margin-top: 10px;
+  margin-right: 0;
+}
+  .column {
+	width: 100%;
+	height: 700px;
+	background-color: #cccccc;
+	text-align: center;
+}
 }
